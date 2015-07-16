@@ -46,8 +46,6 @@ if ($ADMIN->fulltree) {
     //--- general settings -----------------------------------------------------------------------------------
     $settings->add(new admin_setting_configtext('extsearch/framesize',
         get_string('framesize', 'extsearch'), get_string('configframesize', 'extsearch'), 130, PARAM_INT));
-    $settings->add(new admin_setting_configcheckbox('extsearch/requiremodintro',
-        get_string('requiremodintro', 'admin'), get_string('configrequiremodintro', 'admin'), 1));
     $settings->add(new admin_setting_configmultiselect('extsearch/displayoptions',
         get_string('displayoptions', 'extsearch'), get_string('configdisplayoptions', 'extsearch'),
         $defaultdisplayoptions, $displayoptions));
