@@ -27,7 +27,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$module->version  = 2010101401;
-$module->requires = 2010080300;  // Requires this Moodle version
-$module->cron     = 0;
-
+$plugin->version  = 2010101401;
+$plugin->requires = 2010080300;  // Requires this Moodle version
+$plugin->cron     = 0;
+$plugin->component = 'mod_extsearch';
